@@ -1,0 +1,42 @@
+// Logical Operator
+
+// OR Operator
+Syntax:-- SELECT * FROM table_name WHERE collumn_name='value' OR collumn_name='value';
+Example:-- SELECT * FROM student WHERE Gender='male' OR GPA>=3.76;
+
+
+
+
+// And Operator
+Syntax:-- SELECT * FROM table_name WHERE collumn_name='value' AND collumn_name='value';
+Example:-- SELECT * FROM student WHERE Gender='male' AND GPA>=3.76;
+
+
+
+
+// IN Operator
+Syntax:-- SELECT * FROM table_name WHERE collumn_name IN('value', 'value');
+Example:-- SELECT * FROM student WHERE City IN('Jashore', 'Khulna');
+
+
+
+
+// NOT IN Operator
+Syntax:-- SELECT * FROM table_name WHERE collumn_name NOT IN('value', 'value');
+Example:-- SELECT * FROM student WHERE City NOT IN('Jashore', 'Khulna');
+
+
+
+
+// LIKE Operator
+Syntax-1:-- SELECT * FROM table_name WHERE collumn_name LIKE 'value_first_character%';
+Example:-- SELECT * FROM student WHERE Name LIKE 'S%';
+
+
+Syntax-2:-- SELECT * FROM table_name WHERE collumn_name LIKE '%value_last_character';
+Example:-- SELECT * FROM student WHERE Name LIKE '%b';
+
+
+Syntax-3:-- SELECT * FROM table_name WHERE collumn_name LIKE '%value_medile_character%';
+Example:-- SELECT * FROM student WHERE Name LIKE '%et%';
+

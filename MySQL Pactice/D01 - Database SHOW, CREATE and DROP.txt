@@ -1,0 +1,10 @@
+// SHOW Database
+SHOW DATABASES;
+
+
+// CREATE Database
+CREATE DATABASE database_name;
+
+
+// DROP Database
+DROP DATABASE database_name;

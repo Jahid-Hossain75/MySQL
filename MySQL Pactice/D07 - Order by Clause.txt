@@ -1,0 +1,12 @@
+// Order by keyword
+
+// ascending to descending
+Syntax:-- SELECT collum_name student ORDER BY collum_name;
+Example:-- SELECT Roll, Name, Gender, Age, GPA FROM student ORDER BY Name;
+
+
+
+
+//  descending to ascending
+Syntax:-- SELECT collum_name student ORDER BY collum_name DESC;
+Example:-- SELECT Roll, Name, Gender, Age, GPA FROM student ORDER BY Name DESC;

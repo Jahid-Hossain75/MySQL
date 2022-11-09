@@ -1,0 +1,20 @@
+// Upper and Lower Function
+
+// Upper Function
+Syntax-1:- SELECT UPPER(text);
+Example-1:- SELECT UPPER('my name is jahid');
+
+
+Syntax-2:- SELECT UPPER(column_name) FROM table_name;
+Example-2:- SELECT UPPER(Name) FROM teacher;
+
+
+
+
+// Upper Function
+Syntax-3:- SELECT LOWER(text);
+Example-3:- SELECT LOWER('MY NAME IS JAHID');
+
+
+Syntax-2:- SELECT LOWER(column_name) FROM table_name;
+Example-2:- SELECT LOWER(Name) FROM teacher;

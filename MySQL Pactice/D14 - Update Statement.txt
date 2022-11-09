@@ -1,0 +1,6 @@
+// Update Statement
+
+Syntax:- 
+UPDATE table_name SET column_name = value WHERE condition;
+
+Example:- UPDATE teacher SET Sellary = 28000 WHERE Id = 105;

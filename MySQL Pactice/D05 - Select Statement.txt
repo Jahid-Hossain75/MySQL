@@ -1,0 +1,19 @@
+// Select Statement:-
+
+// To display the data in any column of the table
+Syntax: -- SELECT collum_name FROM table_name;
+Example:  SELECT Name FROM student;
+
+
+
+
+// To display data from multiple columns in a table
+Syntax: -- SELECT collum_name1, collum_name2 FROM table_name;
+Example:  SELECT Name, Gender, City FROM student;
+
+
+
+
+// To display all the data in the table
+Syntax: -- SELECT * FROM table_name;
+Example: -- SELECT * FROM student;

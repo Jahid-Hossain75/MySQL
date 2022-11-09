@@ -1,0 +1,4 @@
+// Delete Statement
+
+Syntax:- DELETE FROM table_name WHERE condition;
+Example:- DELETE FROM teacher WHERE Id = 105;

@@ -1,0 +1,18 @@
+// Relational Operator
+// Between Operator -- How many will display
+Syntax:-- SELECT column_name FROM table_name WHERE column_name BETWEEN id_number AND id_number;
+Example:-- SELECT ROLL, Name, GPA FROM student WHERE Roll BETWEEN 102 AND 105;
+
+
+
+
+// = Equal Operator
+Syntax:-- SELECT column_name FROM table_name WHERE column_name = id_number;
+Example:-- SELECT ROLL, Name, GPA FROM student WHERE Roll = 105;
+
+
+
+
+// != Not Equal Operator
+Syntax:-- SELECT column_name FROM table_name WHERE column_name != id_number;
+Example:-- SELECT ROLL, Name, GPA FROM student WHERE Roll != 105;

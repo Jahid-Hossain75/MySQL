@@ -1,0 +1,10 @@
+// AS Keyword
+
+// The function of the AS keyword is to change the name of the column.
+Syntax - 1:- SELECT collunm_name AS New_column_name FROM table_name;
+Example - 1:- SELECT Roll AS ID, Name AS UserName FROM student;
+
+
+
+Syntax - 2:- SELECT collunm_name AS 'New_column_name' FROM table_name;
+Example - 2:- SELECT Roll AS ID, Name AS 'User Name' FROM student;

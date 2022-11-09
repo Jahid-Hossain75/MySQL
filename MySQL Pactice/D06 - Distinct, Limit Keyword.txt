@@ -1,0 +1,19 @@
+// Distinct keyword
+// Duplicate name remove
+Syntax:-- SELECT DISTINCT collum_name FROM table_name;
+Example:-- SELECT DISTINCT City FROM student;
+
+
+
+
+// LIMIT Keyword
+// How much data do you want to display?
+Syntax:-- SELECT * FROM table_name LIMIT row_number;
+Example:-- SELECT * FROM student LIMIT 5;
+
+
+
+
+// How many data to exclude and how many data to display?
+Syntax:-- SELECT * FROM table_name LIMIT Except_the_num, Display_no;
+Example:-- SELECT * FROM student LIMIT 2, 5;

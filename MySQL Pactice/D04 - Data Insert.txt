@@ -1,0 +1,13 @@
+// Data Insert --
+Syntax -
+INSERT INTO table_name(column_name1, column_name2, column_name3) VALUES('Value1', 'Value2', 'Value3');
+
+Example-1:-- INSERT INTO student(Roll, Name, Gender, Age, GPA) VALUES(101, 'Jahid', 'Male', 20, 3.85);
+
+Example-2:-- INSERT INTO student VALUES(101, 'Jahid', 'Male', 20, 3.85);
+
+Example-3:-- INSERT INTO student VALUES
+		(101, 'Jahid', 'Male', 20, 3.85),
+		(102, 'Sakib', 'Male', 21, 3.75),
+		(103, 'Abid', 'Male', 22, 3.60);
+

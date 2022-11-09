@@ -1,0 +1,5 @@
+// Where clause
+
+//The table will display all the data as many Female as there are.
+Syntax:-- SELECT column_name FROM table_name WHERE condition;
+Example:-- SSELECT Roll, Name, Gender, Age, GPA FROM student WHERE Gender='Female';

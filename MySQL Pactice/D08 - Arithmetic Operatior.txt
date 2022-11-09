@@ -1,0 +1,7 @@
+// Arithmetic Operator +, -, *, /, %
+
+Example-1:-- SELECT 5 + 2;
+Example-2:-- SELECT 5 - 2;
+Example-3:-- SELECT 5 * 2;
+Example-4:-- SELECT 5 / 2;
+Example-5:-- SELECT 5 % 2;

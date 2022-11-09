@@ -1,0 +1,22 @@
+// Create Table  - Syntax ---
+CREATE TABLE Table_name
+(
+	Filde_name data_type(length),
+	PRIMARY KEY(Filde_name)
+);
+
+
+
+// Drop Table
+DROP TABLE Table_name;
+
+
+
+
+// Rename Table
+RENAME TABLE old_table_name TO new_table_name;
+// Example
+RENAME TABLE test TO student;
+
+
+
