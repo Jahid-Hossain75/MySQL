@@ -1,0 +1,4 @@
+// SUB QUERY
+
+Syntax:- SELECT * FROM table_name WHERE column_name > (SELECT AVG (column_name) FROM table_name); 
+Example:- SELECT * FROM teacher WHERE Sellary > (SELECT AVG(Sellary) FROM teacher);

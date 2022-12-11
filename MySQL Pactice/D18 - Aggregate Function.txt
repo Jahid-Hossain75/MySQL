@@ -1,0 +1,48 @@
+// Aggregate Function
+
+// MAX - FUNCTION
+Syntax:- SELECT MAX(GPA) FROM table_name;
+Example:- SELECT MAX(GPA) FROM student;
+
+
+
+// MIN- FUNCTION
+Syntax:- SELECT MIN(Column_name) FROM table_name;
+Example:- SELECT MIN(GPA) FROM student;
+
+
+
+// SUM - FUNCTION
+Syntax:- SELECT SUM(Column_name) FROM table_name;
+Example:- SELECT SUM(Sellary) FROM teacher;
+
+
+
+// SUM - FUNCTION
+Syntax:- SELECT AVG(Column_name) FROM table_name;
+Example:- SELECT AVG(Sellary) FROM teacher;
+
+
+
+// SUM & AVG - FUNCTION
+Syntax:- SELECT SUM(Sellary), AVG(Sellary) FROM table_name;
+Example:- SELECT SUM(Sellary), AVG(Sellary) FROM teacher;
+
+
+
+// COUNT, MAX, MIN, SUM, AVG - FUNCTION
+Syntax:- SELECT COUNT(*), MAX(Column_name), MIN(Column_name), SUM(Column_name), AVG(Column_name) FROM table_name;
+Example:- SELECT COUNT(*), MAX(Sellary), MIN(Sellary), SUM(Sellary), AVG(Sellary) FROM teacher;
+
+
+
+
+Example:- SELECT Roll, Name, MIN(GPA) FROM student WHERE Gender='female';
+
+
+
+
+
+
+
+

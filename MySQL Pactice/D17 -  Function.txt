@@ -1,0 +1,62 @@
+// Function
+
+// CONCAT - Function
+
+Syntax-1:- SELECT CONCAT ('1ST String ', '2nd String');
+Example-1:- SELECT CONCAT ('Welcome to ', 'mysql database');
+
+// 2 column add
+Syntax-2:- SELECT CONCAT (column_name, 'column_name') FROM table_name;
+Example-2:- SELECT CONCAT(Name, ' is ', Age, ' Years old') FROM student;
+
+// 2 column add & change the column_name
+Syntax-3:- SELECT CONCAT (column_name, 'column_name') AS new_table_name FROM table_name;
+Example-3:- SELECT CONCAT(Name, ' is ', Age, ' Years old') AS All_Student FROM student;
+
+
+
+// GREATEST - FUNCTION
+// The largest number will show
+Syntax:- SELECT GREATEST(NUM, NUM, NUM);
+Example:- SELECT GREATEST(10,20,3,-5,-85);
+
+
+
+// GREATEST - FUNCTION
+// The Small number will show
+Syntax:- SELECT GREATEST(NUM, NUM, NUM);
+Example:- SELECT LEAST(10,20,3,-5,-85);
+
+
+
+// POW - FUNCTION
+Syntax:- SELECT POW(NUM, NUM);
+Example:- SELECT POW(2,3);
+
+
+
+// LOG - FUNCTION
+Syntax-1:- SELECT LOG(NUM);
+Example-1:- SELECT LOG(2);
+
+Syntax-2:- SELECT LOG10(NUM);
+Example-2:- SELECT LOG10(2);
+
+
+
+// TRUNCATE - FUNCTION
+Example:- SELECT TRUNCATE(10.45854555556, 2);
+
+
+
+// EXP - FUNTION
+Syntax:- SELECT EXP(num);
+Example:- SELECT EXP(3);
+
+
+
+
+
+
+
+

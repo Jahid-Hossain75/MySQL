@@ -1,0 +1,15 @@
+// GROUP BY CLAUSE
+
+
+Syntax-1:- SELECT column_name, SUM(column_name) FROM table_name GROUP BY column_name;
+Example-1:- SELECT Department, SUM(Sellary) FROM teacher GROUP BY Department;
+
+
+
+Syntax-2:- SELECT column_name, SUM(column_name) FROM table_name WHERE column_name='value';
+Example-2:- SELECT Department, SUM(Sellary) FROM teacher WHERE Department='cse';
+
+
+
+Syntax-2:- SELECT column_name, SUM(column_name) FROM table_name GROUP BY column_name ORDER BY SUM(column_name) DESC;
+Example-2:- SELECT Department, SUM(Sellary) FROM teacher GROUP BY Department ORDER BY SUM(Sellary) DESC;

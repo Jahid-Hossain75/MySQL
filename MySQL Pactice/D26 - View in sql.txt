@@ -1,0 +1,46 @@
+// VIEW IN SQL
+
+// create a view
+Syntax:- CREATE VIEW view_name AS SELECT column_name, column_name FROM table_name;
+Example:- CREATE VIEW student_view AS SELECT Roll, Name, Gender FROM student_details;
+
+
+
+
+// Show this view
+Syntax-1:- SELECT * FROM view_name;
+Example-1:- SELECT * FROM student_view;
+
+Syntax-2:- SELECT column_name, FROM view_name;
+Example-2:- SELECT Roll, Name FROM student_view;
+
+
+
+
+// Update view record
+Syntax:- UPDATE view_name SET column_name=value WHERE condition;
+Example:- UPDATE student_view SET Name='Fahima' WHERE Roll=105;
+
+
+
+
+// Insert data in view
+Syntax:- INSERT INTO view_name(column_name, column_name) VALUES
+('value', 'value');
+Example:- INSERT INTO student_view(Roll, Name, Gender) VALUES
+(106, 'Mim', 'Female');
+
+
+
+
+// Delete data view
+Syntax:- DELETE FROM view_name WHERE condition;
+Example:- DELETE FROM student_view WHERE Roll=106;
+
+
+
+
+// Drop a view
+Syntax:- DROP VIEW view_name;
+Example:- DROP VIEW student_view;
+

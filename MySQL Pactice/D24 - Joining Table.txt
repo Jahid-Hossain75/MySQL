@@ -1,0 +1,70 @@
+// Joining Table
+
+Syntax-1:- SELECT table_name.column_name, //show this column=column_name
+FROM table_name, table_name
+WHERE table_name.column_name = table_name.column_name ORDER BY column_name;
+
+Example-1:- SELECT student_details.Roll, Reg, Name, Gender, Group_name, GPA
+FROM student_details, exam_result
+WHERE student_details.Roll = exam_result.Roll ORDER BY Roll;
+
+
+
+// change the table_name
+Syntax-2:- SELECT newTable_name.column_name, //show this column=column_name
+FROM oldTable_name AS newTable_name, oldTable_name AS newTable_name
+WHERE newTable_name.column_name = newTable_name.column_name ORDER BY column_name;
+
+Example-2:- SELECT stu.Roll, exam.Reg, stu.Name, stu.Gender, exam.Group_name, exam.GPA
+FROM student_details AS stu, exam_result AS exam
+WHERE stu.Roll = exam.Roll ORDER BY Roll;
+
+
+
+
+// using the JOIN keyword
+Syntax-3:- SELECT newTable_name.column_name, //show this column=column_name
+FROM oldTable_name AS newTable_name JOIN oldTable_name AS newTable_name
+ON newTable_name.column_name = newTable_name.column_name ORDER BY column_name;
+
+Example-3:- SELECT stu.Roll, exam.Reg, stu.Name, stu.Gender, exam.Group_name, exam.GPA
+FROM student_details AS stu JOIN exam_result AS exam
+ON stu.Roll = exam.Roll ORDER BY Roll;
+
+
+
+
+// using the INNER JOIN keyword
+Syntax-4:- SELECT newTable_name.column_name, //show this column=column_name
+FROM oldTable_name AS newTable_name INNER JOIN oldTable_name AS newTable_name
+ON newTable_name.column_name = newTable_name.column_name ORDER BY column_name;
+
+Example-4:- SELECT stu.Roll, exam.Reg, stu.Name, stu.Gender, exam.Group_name, exam.GPA
+FROM student_details AS stu INNER JOIN exam_result AS exam
+ON stu.Roll = exam.Roll ORDER BY Roll;
+
+
+
+
+
+// using the LEFT JOIN keyword
+Syntax-4:- SELECT newTable_name.column_name, //show this column=column_name
+FROM oldTable_name AS newTable_name LEFT JOIN oldTable_name AS newTable_name
+ON newTable_name.column_name = newTable_name.column_name ORDER BY column_name;
+
+Example-4:- SELECT stu.Roll, exam.Reg, stu.Name, stu.Gender, exam.Group_name, exam.GPA
+FROM student_details AS stu LEFT JOIN exam_result AS exam
+ON stu.Roll = exam.Roll ORDER BY Roll;
+
+
+
+
+
+// using the RIGHT JOIN keyword
+Syntax-4:- SELECT newTable_name.column_name, //show this column=column_name
+FROM oldTable_name AS newTable_name RIGHT JOIN oldTable_name AS newTable_name
+ON newTable_name.column_name = newTable_name.column_name ORDER BY column_name;
+
+Example-4:- SELECT stu.Roll, exam.Reg, stu.Name, stu.Gender, exam.Group_name, exam.GPA
+FROM student_details AS stu RIGHT JOIN exam_result AS exam
+ON stu.Roll = exam.Roll ORDER BY Roll;

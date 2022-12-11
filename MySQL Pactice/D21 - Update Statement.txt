@@ -1,0 +1,4 @@
+// UPDATE STATEMENT
+
+Syntax:- UPDATE table_name SET column_name='values' WHERE ID='id_number';
+Example:- UPDATE teacher SET Department='CSE' WHERE Id=100;

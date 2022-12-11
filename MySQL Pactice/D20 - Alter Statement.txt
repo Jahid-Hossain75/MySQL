@@ -1,0 +1,17 @@
+// ALTER STATEMENT
+
+// Adding a column
+Syntax:- ALTER TABLE table_name ADD column_name datatype(size);
+Example:- ALTER TABLE teacher ADD age int(5);
+
+
+
+// Renaming column
+Syntax:- ALTER TABLE table_name CHANGE column_name new_column_name datatype(size);
+Example:- ALTER TABLE teacher CHANGE Age Department varchar(64);
+
+
+
+// Dropping a column
+Syntax:- ALTER TABLE table_name DROP COLUMN column_name;
+Example:- ALTER TABLE teacher DROP COLUMN Department;

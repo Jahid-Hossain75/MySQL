@@ -1,0 +1,4 @@
+// Truncate Table
+
+Syntax:- TRUNCATE TABLE table_name;
+Example:- TRUNCATE TABLE my_student;

@@ -1,0 +1,18 @@
+// UNION, UNION ALL
+
+// UNION
+Syntax:- SELECT column_name, column_name FROM 1sr_table_name UNION
+	 SELECT column_name, column_name FROM 2nd_table_name;
+
+Example:- SELECT Roll, Name, Gender FROM dhaka_tour UNION
+	  SELECT Roll, Name, Gender FROM sylhet_tour;
+
+
+
+
+// UNION ALL
+Syntax:- SELECT column_name, column_name FROM 1sr_table_name UNION ALL
+	 SELECT column_name, column_name FROM 2nd_table_name;
+
+Example:- SELECT Roll, Name, Gender FROM dhaka_tour UNION ALL
+	  SELECT Roll, Name, Gender FROM sylhet_tour;

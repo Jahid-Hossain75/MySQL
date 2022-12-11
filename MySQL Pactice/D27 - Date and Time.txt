@@ -1,0 +1,62 @@
+// DATE AND TIME
+
+// Today date FUNCTION
+Example:- SELECT CURRENT_DATE();
+
+
+
+// Time FUNCTION
+Example:- SELECT CURRENT_TIME();
+
+
+
+// DATE AND TIME
+Example:- SELECT NOW();
+
+
+
+// ADDDATE FUNCTION
+Syntax:- SELECT ADDDATE('year-month-date', INTERVAL day/month/year);
+Example:- SELECT ADDDATE('2022-12-16', INTERVAL 5 DAY);
+
+
+
+// SUBDATE FUNCTION
+Syntax:- SELECT SUBDATE('year-month-date', INTERVAL day/month/year);
+Example:- SELECT SUBDATE('2022-12-16', INTERVAL 5 DAY);
+
+
+
+// MAKEDATE FUNCTION
+Syntax:- SELECT MAKEDATE(year, day);
+Example:- SELECT MAKEDATE(2022, 312);
+
+
+
+// DAYNAME FUNCTION
+Syntax:- SELECT DAYNAME('year-month-day');
+Example:- SELECT DAYNAME('2022-12-20');
+
+
+
+// MONTHNAME FUNCTION
+Syntax:- SELECT MONTHNAME('year-month-day');
+Example:- SELECT MONTHNAME('2022-12-20');
+
+
+
+// YEARNAME FUNCTION
+Syntax:- SELECT YEARNAME('year-month-day');
+Example:- SELECT YEARNAME('2022-12-20');
+
+
+
+
+
+
+
+
+
+
+
+
